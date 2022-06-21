@@ -1,0 +1,146 @@
+       :root {
+           --primary-color: #348eca;
+           --secondary-color: #f6f2fe;
+           --tertiary-color: #b7b2c2;
+           --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+       }
+
+       body {
+           margin: 60px auto;
+           max-width: 800px;
+           font-size: 1rem;
+           line-height: 1.5;
+       }
+
+       h1,
+       h2,
+       h3 {
+           text-align: center;
+           margin: 0;
+       }
+
+       h1 {
+           font-size: 70px;
+           font-weight: bold;
+       }
+
+       h2 {
+           font-size: 34px;
+       }
+
+       h3 {
+           font-size: 24px;
+           opacity: 0.5;
+       }
+
+       p {
+           background: var(--secondary-color);
+           padding: 20px;
+           border-radius: 4px;
+           font-size: 18px;
+           line-height: 1.5;
+           text-align: center;
+       }
+
+       a:hover {
+           color: #8c62f1;
+       }
+
+       a:visted {
+           color: var(--primary-color);
+       } 
+       img,
+           svg {
+               vertical-align: middle;
+           }
+    
+           *,
+           ::after,
+           ::before {
+               box-sizing: border-box;
+           }
+           rounded {
+               border-radius: 0.25rem !important;
+           }
+
+       .fr {
+           font-size: 11px;
+       }
+     .navigation-links {
+               display: flex;
+               margin-top: 40px;
+               justify-content: center;
+    }
+        .bg-blue {
+            background:#348eca;
+        }
+       .intro-link {
+           display: flex;
+           justify-content: center;
+       }
+
+       .intro-link a {
+           margin: 20px;
+           border-radius: 4px;
+           padding: 20px 15px;
+           text-decoration: none;
+           text-transform: capitalize;
+       }
+
+       .contact-link {
+           background: var(--primary-color);
+           color: #fff;
+           box-shadow: var(--box-shadow);
+       }
+
+       .about-link {
+           background: var(--secondary-color);
+           border: 1px solid var(--primary-color);
+       }
+
+       .about-paragraph {
+           display: flex;
+           margin: 30px 0;
+       }
+
+       .about-paragraph p {
+           margin: 10px;
+       }
+
+       .paragraph-1 {
+           background: var(--tertiary-color);
+       }
+
+       .paragraph-2 {
+           background: var(--primary-color);
+       }
+
+       .email-link {
+           display: flex;
+           justify-content: center;
+           color: var(--primary-color);
+           font-size: 28px;
+           text-decoration: none;
+       }
+
+       .homepage-link {
+           color: var(--primary-color);
+           text-align: center;
+           display: block;
+       }
+    
+        .primary-link {
+            border-radius: 4px;
+            padding: 20px 15px;
+            text-decoration: none;
+            text-transform: capitalize;
+            background: var(--primary-color);
+            box-shadow: var(--box-shadow);
+            color: white;
+        }
+           .img-fluid {
+               max-width: 100%;
+               height: auto;
+           }
+    
+          
